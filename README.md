@@ -25,13 +25,13 @@ This are my most used programming programs :
  * Elicpse : Java
  * [Mars](http://courses.missouristate.edu/KenVollmar/mars/download.htm) : MIPS assembler
  * Pycharm : Python 
- * Ardino 
+ * Arduino 
   
 Some Useful Programs :
   * [SDKMAN!](http://sdkman.io/install.html) : package manager
   *  [Franz](https://meetfranz.com/): socialMedia manager 
       > it use google chrome in background so remember to deactivated services when you are not using them
-  
+  * Thunar : file manager 
 
 
 
