@@ -32,6 +32,8 @@ Some Useful Programs :
   *  [Franz](https://meetfranz.com/): socialMedia manager 
       > it use google chrome in background so remember to deactivated services when you are not using them
   * Thunar : file manager 
+  * Dropbox ( you need also deamon! )
+  * google drive
 
 
 
