@@ -3,7 +3,8 @@
 This is my own i3-config. Setup on ubuntu 17.10 My pc is a Acer aspire 5750G.
 
 This configuration of [i3wm](https://i3wm.org/) use package:
-I use this [youtube tutorial](https://www.youtube.com/watch?v=j1I63wGcvU4&list=PL5ze0DjYv5DbCv9vNEzFmP6sU7ZmkGzcf) for the very first setup
+
+I use this youtube [tutorial](https://www.youtube.com/watch?v=j1I63wGcvU4&list=PL5ze0DjYv5DbCv9vNEzFmP6sU7ZmkGzcf) for the very first setup
 
 * feh (for desktop wallpaper)
 * gnome-screenshot (use to get screenshot)
