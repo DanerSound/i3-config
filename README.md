@@ -4,9 +4,9 @@
 
 *OS:Ubuntu 
 
-*Kernel: x86_64 4.15.0-30-generic 
+*Kernel: x86_64 4.15.0-30-generic* 
 
-*WM:[i3wm](https://i3wm.org/) 
+*WM:[i3wm](https://i3wm.org/)*
 
 I use this youtube [tutorial](https://www.youtube.com/watch?v=j1I63wGcvU4&list=PL5ze0DjYv5DbCv9vNEzFmP6sU7ZmkGzcf) for the very first setup:
 
