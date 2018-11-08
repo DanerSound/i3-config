@@ -18,6 +18,7 @@ Basic Programs:
 * amixer ( to autostart the volumen increase & decrese )
 * lxappearance (i use to modify the theme, racommended https://github.com/horst3180/Arc-theme)
 * i3-battery-popup (script made by :https://github.com/rjekker/i3-battery-popup)
+* kb-layout (script forked from https://github.com/su8/kb-layout)
 
 This Configuration for firefox addons :
  * Grammarly
