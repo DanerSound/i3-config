@@ -162,6 +162,7 @@ bindsym $mod+r mode "resize"
 
  bar {
          status_command i3blocks -c ~/.config/i3/i3blocks.conf
+	 tray_output primary
        }
 
 ##Media Control buttons
@@ -170,7 +171,7 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #i
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
-# Sreen brightness controls 
+# Sreen brightness controls <<<non funzionano>>>
 bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
 
@@ -183,14 +184,30 @@ bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
+#### Utility Services
+
 exec $HOME/.config/i3/autostart
 
-exec_always $HOME/.config/i3/alwaystart
+#exec_always $HOME/.config/i3/alwaystart
+
+#wallpaper command
+exec_always feh --bg-scale $HOME/.config/i3/wallpaper/skyrim.jpg
+
+#### Scree Layout
+
+##SingleScreen-layout
+exec_always xrandr --output VGA-1 --off --output LVDS-1-2 --off --output HDMI-1 --off --output HDMI-1-2 --off --output LVDS-1 --primary --mode 1366x768 --pos 0x0 --rotate normal --output VGA-1-2 --off --output DP-1 --off
+
+## DoubleScreen-layout
+bindsym $mod+Shift+0xffc2 exec $HOME/.config/i3/doubleScreen.sh 
 
 # Screenshoot
 bindsym Print exec gnome-screenshot -i
-# BatteryPopuop 
-exec --no-startup-id i3-battery-popup -n
+
+# BatteryPopuop
+exec_always i3battery --audio --no-notify
+
 
 #lock screen
 bindsym $mod+Shift+x exec $HOME/.config/i3/lock/lock.sh
+
